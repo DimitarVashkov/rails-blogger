@@ -13,10 +13,12 @@
     <%= f.text_area :body %>
   </p>
     <p>
-    <%= f.label :tag_list %><br />
-    <%= f.text_field :tag_list %>
-    </p>
+  <%= f.label :tag_list %><br />
+  <%= f.text_field :tag_list %>
+</p>
   <p>
     <%= f.submit %>
   </p>
 <% end %>
+
+<%= link_to "<< Back to Articles List", articles_path %>
