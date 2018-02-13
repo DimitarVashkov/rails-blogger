@@ -1,5 +1,5 @@
 <h1>Login</h1>
-
+<div class="loginForm">
 <%= form_tag author_sessions_path, method: :post do %>
   <div class="field">
     <%= label_tag :email %>
@@ -15,5 +15,5 @@
     <%= submit_tag "Login" %>
   </div>
 <% end %>
-
+</div>
 <%= link_to 'Back', articles_path %>
